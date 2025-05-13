@@ -33,10 +33,6 @@ ARC achieves **state-of-the-art performance** on the USPTO-50K benchmark. The fu
 │   ├── test_example.ipynb      # Inference example
 │   └── dataset_stats.ipynb     # Dataset analysis
 │
-├── ablations/                  # Optional ablation training configs/scripts
-│   ├── run_nodual.sh           # ARC w/o Dual Graph
-│   ├── run_noattn.sh           # ARC w/o Cross-Attention
-│   └── run_minimal.sh          # ARC w/o Dual & Attention
 │
 ├── pretrained/                 # Pretrained model weights (optional)
 │   └── arc_full.pt             # Full ARC checkpoint
@@ -70,13 +66,6 @@ pip install -r requirements.txt
 ### Train ARC (full model)
 ```bash
 bash run.sh
-```
-
-### Run ablation studies
-```bash
-bash ablations/run_nodual.sh      # w/o Dual Graph
-bash ablations/run_noattn.sh      # w/o Cross-Attention
-bash ablations/run_minimal.sh     # w/o both
 ```
 
 ### Evaluate on test set
