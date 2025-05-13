@@ -20,24 +20,24 @@ ARC achieves **state-of-the-art performance** on the USPTO-50K benchmark. The fu
 ```bash
 .
 ├── arc/                         # Source code
-│   ├── model.py                # ARC model definition
+│   ├── model.py                # ARC model
 │   ├── training.py             # Training loop
 │   ├── evaluation.py           # Evaluation and metrics
 │   ├── dataset.py              # Dataset loading and preprocessing
 │   ├── utils.py                # Utility functions
 │   ├── utils_data.py           # Graph utilities
-│   ├── pairdata.py             # Product-reactant pairing logic
-│   └── plots.py                # Visualization helpers
+│   ├── pairdata.py             # Product-reactant pair data
+│   
 │
 ├── notebooks/                  # Notebooks
 │   ├── test_example.ipynb      # Inference example
 │   └── dataset_stats.ipynb     # Dataset analysis
 │
 │
-├── pretrained/                 # Pretrained model weights (optional)
-│   └── arc_full.pt             # Full ARC checkpoint
+├── pretrained/                 # Pretrained model weights
+│   └── best_model.pt           # Model checkpoint
 │
-├── run.sh                      # SLURM training script (ARC full)
+├── run.sh                      # SLURM training script
 ├── model_utest.py              # Unit tests
 ├── environment.yml             # Conda environment spec
 ├── requirements.txt            # Python package dependencies
