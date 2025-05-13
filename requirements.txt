@@ -1,0 +1,10 @@
+torch
+rdkit-pypi
+scikit-learn
+numpy
+matplotlib
+pandas
+tqdm
+seaborn
+networkx
+notebook

@@ -1,0 +1,19 @@
+name: arc
+channels:
+  - rdkit
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - tqdm
+  - seaborn
+  - notebook
+  - networkx
+  - pytorch
+  - rdkit
+  - jupyter
