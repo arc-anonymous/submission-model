@@ -92,16 +92,12 @@ jupyter notebook notebooks/test_example.ipynb
 ---
 
 ## Pretrained Weights
-
-Pretrained weights for the full ARC model are available at:
-
-```
-pretrained/arc_full.pt
-```
+Pretrained ARC model weights are available at:
+[Download ARC Weights](https://drive.google.com/drive/folders/1UrGDbtgEzqXsuq27rhF7rc8pqa5TL-Cn?usp=sharing)
 
 To load:
 ```python
-model.load_state_dict(torch.load("pretrained/arc_full.pt"))
+model.load_state_dict(torch.load("pretrained/best_model.pt"))
 ```
 
 ---
