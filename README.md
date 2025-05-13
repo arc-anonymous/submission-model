@@ -7,11 +7,11 @@ This repository contains the implementation of **ARC**, a unified multi-task gra
 **ARC (Atom-Reactivity Correspondence)** is a unified graph neural network that jointly performs **atom mapping** and **reaction center identification**. These tasks are commonly treated in isolation, but ARC integrates them within a shared representation space.
 
 Key features:
+- **Multi-Task Learning**: Combines atom mapping and reaction center identification into a unified multi-task framework.
 - **Cross-Graph Attention**: Aligns product atoms with their mapped reactant counterparts to guide attention toward reactive regions.
 - **Dual-Graph Representation**: Treats bonds as nodes, enabling localized bond-centric message passing.
-- **Multi-task Loss**: Joint optimization of atom alignment and reactivity improves interpretability and robustness.
 
-ARC achieves **state-of-the-art performance** on the USPTO-50K benchmark. The full training pipeline, ablation experiments, and evaluation scripts are included.
+ARC achieves **state-of-the-art performance** on the USPTO-50K benchmark. The full training pipeline, and evaluation scripts are included.
 
 ---
 
